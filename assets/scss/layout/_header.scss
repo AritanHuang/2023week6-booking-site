@@ -1,0 +1,20 @@
+.logo {
+    width: 40px;
+    height: 40px;
+    @include media-breakpoint-up(md) {
+        width: 53px;
+        height: 53px;
+    }
+}
+.input-group {
+    width: 207px;
+    @include media-breakpoint-up(md) {
+        width: 335px;
+    }
+    input {
+        height: 40px;
+        @include media-breakpoint-up(md) {
+            height: auto;
+        }
+    }
+}
