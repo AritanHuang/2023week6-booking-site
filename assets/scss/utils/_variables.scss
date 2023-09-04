@@ -310,6 +310,7 @@ $danger: $red !default;
 $light: #878787 !default;
 $dark: #4f4f4f !default;
 $white: #fff !default; //*custom
+$beige: #f3f1e5 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -323,6 +324,7 @@ $theme-colors: (
     'light': $light,
     'dark': $dark,
     'white': $white,
+    'beige': $beige,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -395,6 +397,8 @@ $spacers: (
     10: $spacer * 10,
     11: $spacer * 11,
     12: $spacer * 12,
+    20: $spacer * 20,
+    135: 135px,
 ) !default; //*custom
 // scss-docs-end spacer-variables-maps
 
@@ -612,6 +616,7 @@ $font-sizes: (
     22: 22px,
     24: 24px,
     32: 32px,
+    36: 36px,
     48: 48px,
     60: 60px,
     64: 64px,
