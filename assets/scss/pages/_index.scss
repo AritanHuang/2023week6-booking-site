@@ -1,5 +1,6 @@
 .index-banner {
     height: 350px;
+    width: calc(100% - 24px);
     @include media-breakpoint-up(sm) {
         height: 518px;
     }
