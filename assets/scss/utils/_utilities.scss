@@ -154,6 +154,7 @@ $utilities: map-merge(
             css-variable-name: border-width,
             class: border,
             values: $border-widths,
+            responsive: true,
         ),
         'border-opacity': (
             css-var: true,
@@ -174,12 +175,15 @@ $utilities: map-merge(
                 property: width,
                 class: w,
                 values: (
+                    20: 20px,
+                    24: 24px,
                     25: 25%,
                     50: 50%,
                     75: 75%,
                     100: 100%,
                     auto: auto,
                 ),
+                responsive: true,
             ),
         'max-width': (
             property: max-width,
@@ -206,12 +210,17 @@ $utilities: map-merge(
             property: height,
             class: h,
             values: (
+                20: 20px,
+                24: 24px,
+                210: 210px,
+                225: 225px,
                 25: 25%,
                 50: 50%,
                 75: 75%,
                 100: 100%,
                 auto: auto,
             ),
+            responsive: true,
         ),
         'max-height': (
             property: max-height,
@@ -752,6 +761,13 @@ $utilities: map-merge(
             class: bg-p,
             values: (
                 center: center center,
+            ),
+        ),
+        'object-fit': (
+            property: object-fit,
+            class: ob-f,
+            values: (
+                cover: cover,
             ),
         )
     ),
