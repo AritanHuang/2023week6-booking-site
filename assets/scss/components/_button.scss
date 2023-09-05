@@ -1,0 +1,11 @@
+.tag-button {
+    border-left: 4px solid $primary;
+    font-family: 'Noto Serif TC' !important;
+    font-weight: 700;
+    &:hover {
+        border-left: 4px solid $secondary;
+    }
+}
+.event-detail-hover:hover {
+    color: $secondary;
+}

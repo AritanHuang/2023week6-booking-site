@@ -16,3 +16,11 @@
 .event-hover:hover {
     color: $warning !important;
 }
+.online-img {
+    height: 165px;
+    object-position: center 25%;
+    @include media-breakpoint-up(sm) {
+        // height: 410px;
+        height: 317px;
+    }
+}

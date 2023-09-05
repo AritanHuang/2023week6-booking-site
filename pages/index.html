@@ -66,7 +66,7 @@
           <h4 class="fs-24 fs-md-64 fw-normal">RECENT</h4>
           <h3 class="noto-tc-serif fw-bold fs-16 fs-md-32">近期活動</h3>
         </div>
-        <ul class="list-unstyled row gy-6 gx-md-6 gy-md-12">
+        <ul class="list-unstyled row gy-6 gx-md-6 gy-md-12 mb-8 mb-md-15">
           <li class="col-lg-4 col-md-6">
             <h4 class="fs-32 fs-lg-48 fw-normal pb-2 pb-lg-3 border-bottom border-3 mb-4 mb-lg-3">19 MAY 2023</h4>
             <img class="w-100 mb-2 mb-lg-3 h-210 h-lg-225 ob-f-cover" src="/assets/images/event/01.jpg"
@@ -329,7 +329,40 @@
           </li>
         </ul>
       </section>
-
+      <!-- 線上活動區塊 -->
+      <section class="container mb-8">
+        <div
+          class="d-flex justify-content-between align-items-center border border-2 border-md-3 py-4 px-3 py-md-6 px-md-8 mb-6 mb-md-8">
+          <h4 class="fs-24 fs-md-64 fw-normal">ONLINE</h4>
+          <h3 class="noto-tc-serif fw-bold fs-16 fs-md-32">線上活動</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <img class="online-img  w-100 ob-f-cover" src="/assets/images/event/online.jpg" alt="oline">
+          </div>
+          <div class="col-lg-5">
+            <h4 class="fs-18 fs-lg-32 fw-bold noto-tc-serif my-2 mb-lg-4 mt-lg-0">切特居批踢</h4>
+            <div class="mb-3 mb-lg-8">
+              <button type="button" class="btn btn-outline-primary tag-button fs-14 fs-lg-16 me-2">
+                競賽
+              </button>
+              <button type="button" class="btn btn-outline-primary tag-button fs-14 fs-lg-16 me-2">
+                科技
+              </button>
+              <button type="button" class="btn btn-outline-primary tag-button fs-lg-16 fs-14">
+                有趣
+              </button>
+            </div>
+            <p class="lh-base noto-tc-sans mb-3 mb-lg-8">最近網路上很流行的AI程式 ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。<br>
+              這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。<br>
+              該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！</p>
+            <button type="button" class="btn btn-primary event-detail-hover w-100 noto-tc-sans fw-700 py-4 py-lg-2">
+              查看活動詳情
+              <i class="icofont-rounded-double-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
       <%- include('./layout/footer'); -%>
 
         <script type="module" src="../main.js"></script>
