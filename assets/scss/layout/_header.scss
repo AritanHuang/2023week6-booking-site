@@ -6,6 +6,9 @@
         height: 53px;
     }
 }
+.header-link-hover:hover {
+    color: #9c9e18;
+}
 .input-group {
     width: 207px;
     @include media-breakpoint-up(md) {
