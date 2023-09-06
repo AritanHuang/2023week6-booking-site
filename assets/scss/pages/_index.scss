@@ -39,3 +39,14 @@
 .buy-btn:hover {
     cursor: pointer;
 }
+// 跑馬燈
+.swiper-wrapper {
+    transition-timing-function: linear;
+}
+.swiper-slide {
+    letter-spacing: 1.6px;
+    width: auto;
+    @include media-breakpoint-up(sm) {
+        letter-spacing: 3.2px;
+    }
+}
