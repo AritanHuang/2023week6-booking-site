@@ -24,21 +24,7 @@
         height: 317px;
     }
 }
-.buy-btn:hover:before {
-    content: '';
-    width: 29px;
-    height: 29px;
-    background-color: $secondary;
-    border-radius: 50%;
-    position: absolute;
-    left: -10px;
-    z-index: -1;
-    opacity: 1;
-    transition: opacity 0.3s ease; /* 添加漸變效果 */
-}
-.buy-btn:hover {
-    cursor: pointer;
-}
+
 // 跑馬燈
 .swiper-wrapper {
     transition-timing-function: linear;
