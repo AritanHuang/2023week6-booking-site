@@ -400,7 +400,9 @@ $spacers: (
     15: $spacer * 15,
     20: $spacer * 20,
     24: $spacer * 24,
+    127: 127px,
     135: 135px,
+    163: 163px,
 ) !default; //*custom
 // scss-docs-end spacer-variables-maps
 
@@ -868,8 +870,10 @@ $input-disabled-bg: $gray-200 !default;
 $input-disabled-border-color: null !default;
 
 $input-color: $body-color !default;
-$input-border-color: $gray-400 !default;
-$input-border-width: $input-btn-border-width !default;
+// $input-border-color: $gray-400 !default;
+$input-border-color: $primary !default; //*custom
+// $input-border-width: $input-btn-border-width !default;
+$input-border-width: 2px !default; //*custom
 $input-box-shadow: $box-shadow-inset !default;
 
 $input-border-radius: $border-radius !default;
@@ -912,7 +916,8 @@ $form-check-transition: null !default;
 $form-check-input-active-filter: brightness(90%) !default;
 
 $form-check-input-bg: $input-bg !default;
-$form-check-input-border: 1px solid rgba($black, 0.25) !default;
+// $form-check-input-border: 1px solid rgba($black, 0.25) !default;
+$form-check-input-border: 1px solid $primary !default; //*custom
 $form-check-input-border-radius: 0.25em !default;
 $form-check-radio-border-radius: 50% !default;
 $form-check-input-focus-border: $input-focus-border-color !default;
